@@ -10,17 +10,78 @@
 
 /*--------page frame--------*/
 .m-home-page-main-layout{
-    padding-top: 10px;
+    padding-top: 20px;
     display: grid !important;
-    grid-template-rows: 10% auto auto auto auto;
+    grid-template-rows: 8% auto auto auto auto;
     height: auto !important;
-    min-height: 100vh !important;
+    min-height: 150vh !important;
+    background-image: url(../../images/Background/Background1.jpeg);
+    background-size: 1000px;
+    background-color: #0d0d0d;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.m-each-recommoned-blog{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 1000px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    color: rgb(217, 215, 215);
+    text-align: center;
+    opacity: 90%;
+    display: grid !important;
+    grid-template-columns: 70% 30% !important;
+}
+
+
+.m-home-page-recommonded-blog-left{
+    padding: 5px;
+    display: grid !important;
+    grid-template-rows: 30% 55% 15%;
+    text-align: left;
+}
+
+.m-home-page-recommonded-blog-left-title{
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.m-home-page-recommonded-blog-left-content{
+    padding-left: 20px;
+}
+
+.m-home-page-recommonded-blog-left-footer{
+    padding-left: 20px;
+    display: grid !important;
+    grid-template-columns: 10% 20% 70%;
+    font-size: small;
+}
+
+.m-home-page-recommonded-blog-left-footer-canlender{
+    color: gray;
+}
+
+.m-home-page-recommonded-blog-left-footer-tag{
+    margin-right: 0%;
+}
+
+
+.m-each-recommoned-blog-right-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
 }
 
 /*--------text--------*/
 .m-main-text-topic{
     padding-top: 15px;
     height: 50px;
+    width: 800px !important;
     background-color: #1B1C1D;
     border-radius: 10px;
     color: white;
@@ -43,14 +104,3 @@
 .m-opacity-mini{
     opacity: 0.8 !important;
 }
-
-.m-each-recommoned-blog{
-    margin-top: 10px;
-    height: 150px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    color: white;
-    text-align:center;
-    opacity: 90%;
-}
-
