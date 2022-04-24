@@ -1,0 +1,56 @@
+.m-padded-tb{
+    padding-top: 0.2em !important;
+    padding-left: 0.2em !important;
+}
+
+.m-padded-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 3em !important;
+}
+
+/*--------page frame--------*/
+.m-home-page-main-layout{
+    padding-top: 10px;
+    display: grid !important;
+    grid-template-rows: 10% auto auto auto auto;
+    height: auto !important;
+    min-height: 100vh !important;
+}
+
+/*--------text--------*/
+.m-main-text-topic{
+    padding-top: 15px;
+    height: 50px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    opacity: 90%;
+}
+
+.m-text-thin{
+    font-weight: 100 !important;
+}
+
+.m-text-spaced{
+    letter-spacing: 1px !important;
+}
+
+.m-text-lined{
+    line-height: 1.8 !important;
+}
+
+.m-opacity-mini{
+    opacity: 0.8 !important;
+}
+
+.m-each-recommoned-blog{
+    margin-top: 10px;
+    height: 150px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    opacity: 90%;
+}
+
